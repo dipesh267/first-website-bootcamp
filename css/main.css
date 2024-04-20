@@ -1,0 +1,28 @@
+#title {
+  line-height: 3;
+  background-color: bisque;
+  text-align: center;
+  color: black;
+  font-size: xx-large;
+}
+
+#navBar {
+  text-align: center;
+}
+.navOptions {
+  padding-right: 7px;
+  padding-left: 7px;
+  line-height: 1;
+  background-color: burlywood;
+  color: black;
+  border-radius: 10px;
+}
+
+#aboutMeDiv {
+  width: 50%;
+  margin: auto;
+  background-color: lavenderblush;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}

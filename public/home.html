@@ -4,21 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootcamp First Website</title>
+    <link rel="stylesheet" href="../css/main.css" />
   </head>
   <body>
-    <h1 style="color: blueviolet">Dipesh Manandhar</h1>
-
+    <div id="title">
+      <h1 id="title">Dipesh Manandhar</h1>
+    </div>
     <header>
-      <nav>
-        <ul>
-          <li><a href="#aboutMeSection">About Me</a></li>
-          <li><a href="#skillSection">Skills</a></li>
-          <li><a href="#hobbiesSection">Hobbies</a></li>
-          <li><a href="#imagesSection">Images</a></li>
-        </ul>
+      <nav id="navBar">
+        <p>
+          <a class="navOptions" href="#aboutMeSection">About Me</a>
+          <a class="navOptions" href="#skillSection">Skills</a>
+          <a class="navOptions" href="#hobbiesSection">Hobbies</a>
+          <a class="navOptions" href="#imagesSection">Images</a>
+        </p>
       </nav>
     </header>
-    <div>
+    <div id="aboutMeDiv">
       <a id="aboutMeSection"></a>
       <p>
         My name is Dipesh Manandhar. I live in the San Francisco Bay Area. I
@@ -63,10 +65,10 @@
       <a id="imagesSection"></a>
 
       <h5 style="color: blueviolet">I love to travel</h5>
-      <img src="./images/dipesh.JPG" height="400px" alt="Image of Dipesh" />
+      <img src="../images/dipesh.JPG" height="400px" alt="Image of Dipesh" />
 
       <h5 style="color: blueviolet">This is my dog Cocoa</h5>
-      <img src="./images/cocoa.jpeg" height="400px" atl="image of cocoa" />
+      <img src="../images/cocoa.jpeg" height="400px" atl="image of cocoa" />
     </div>
   </body>
 </html>

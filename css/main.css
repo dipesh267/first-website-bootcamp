@@ -19,10 +19,13 @@
 }
 
 #aboutMeDiv {
-  width: 50%;
-  margin: auto;
   background-color: lavenderblush;
   border-radius: 10px;
   padding: 10px;
   text-align: center;
+}
+
+.center-to-page {
+  width: 50%;
+  margin: auto;
 }

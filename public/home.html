@@ -7,83 +7,54 @@
     <link rel="stylesheet" href="../css/main.css" />
   </head>
   <body>
-    <div id="title">
-      <h1 id="title">Dipesh Manandhar</h1>
+    <a id="gotoTop"></a>
+    <div id="title-div">
+      <h1 id="title">Dipesh Raj Manandhar</h1>
     </div>
-    <header>
-      <nav id="navBar">
-        <p>
-          <a class="navOptions" href="#aboutMeSection">About Me</a>
-          <a class="navOptions" href="#skillSection">Skills</a>
-          <a class="navOptions" href="#hobbiesSection">Hobbies</a>
-          <a class="navOptions" href="#imagesSection">Images</a>
-        </p>
-      </nav>
-    </header>
-    <div id="aboutMeDiv" class="center-to-page">
+
+    <div id="navBar">
+      <div>
+        <a class="navOptions" href="#imagesSection">Images</a>
+        <a class="navOptions" href="#aboutMeSection">About Me</a>
+      </div>
+      <div>
+        <a class="navOptions" href="#gotoTop">Start Over</a>
+      </div>
+    </div>
+
+    <div class="grid-main">
+      <div class="grid-item">
+        <h4 style="margin: 0"><u>Skills</u></h4>
+        <ul style="padding: 0; list-style: none; margin: 0" class="skill-list">
+          <li class="skill-item">html</li>
+          <li class="skill-item">js</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h4 style="margin: 0"><u>Experience</u></h4>
+      </div>
+    </div>
+
+    <div id="aboutMeDiv">
       <a id="aboutMeSection"></a>
       <p>
         My name is Dipesh Manandhar. I live in the San Francisco Bay Area. I
-        <br />
-        love to learn new things but it's always an issue retaining what
-        <br />
-        I've learned because of time.
+        love to learn new things but it's always an issue retaining what I've
+        learned because of time.
       </p>
     </div>
-    <a id="skillSection"></a>
-    <div class="center-to-page">
-      <label for="skillTable" style="color: blueviolet">Skills</label>
-      <table border="4">
-        <thead>
-          <tr>
-            <td>Name</td>
-            <td>Skill Level</td>
-          </tr>
-        </thead>
-        <tr>
-          <td>HTML</td>
-          <td>so so</td>
-        </tr>
-        <tr>
-          <td>JS</td>
-          <td>So so</td>
-        </tr>
-      </table>
-    </div>
-    <br />
-    <br />
-    <a id="hobbiesSection"></a>
-    <div class="center-to-page">
-      <label for="hobbiesList" style="color: blueviolet">Hobbies</label>
-      <ul>
-        <li>Gaming</li>
-        <li>Learing</li>
-        <li>Eating</li>
-      </ul>
-    </div>
-    <div class="center-to-page">
-      <table>
-        <tr>
-          <th>
-            <a id="imagesSection"></a>
-
-            <h5 style="color: blueviolet">I love to travel</h5>
-            <img
-              src="../images/dipesh.JPG"
-              height="400px"
-              alt="Image of Dipesh"
-            />
-          </th>
-          <th>
-            <h5 style="color: blueviolet">This is my dog Cocoa</h5>
-            <img
-              src="../images/cocoa.jpeg"
-              height="400px"
-              atl="image of cocoa"
-            />
-          </th>
-        </tr>
-      </table>
+    <a id="imagesSection"></a>
+    <div class="grid-images">
+      <div class="grid-item">
+        <h4 style="margin: 0"><u>Dipesh</u></h4>
+        <br />
+        <img src="../images/dipesh.JPG" height="450px" alt="Image of Dipesh" />
+      </div>
+      <div class="grid-item">
+        <h4 style="margin: 0"><u>Cocoa</u></h4>
+        <br />
+        <img src="../images/cocoa.jpeg" height="450px" atl="image of cocoa" />
+      </div>
     </div>
   </body>
 </html>

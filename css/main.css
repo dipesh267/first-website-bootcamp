@@ -4,6 +4,12 @@ body {
 
 #title-div {
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4613e;
+  border-radius: 5px;
+  gap: 20px;
 }
 #title {
   background-color: #f4613e;
@@ -11,8 +17,8 @@ body {
   color: white;
   line-height: 2;
   font-size: 48px;
-  border-radius: 5px;
   margin: 2px;
+  border-radius: 5px;
 }
 
 #navBar {
@@ -26,6 +32,7 @@ body {
   text-align: center;
   padding-left: 2px;
   padding-right: 2px;
+  margin-top: 10px;
 }
 
 .navOptions {
